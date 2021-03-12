@@ -1,0 +1,31 @@
+{
+
+    "data": [
+
+        {"name": "The Godfather", "budget": "$50M", "director": "Mario Puzo", "imdb": 7.5},
+
+        {"name": "The Fellowship of the Ring", "budget": "$40M", "director": "J.R.R. Tolkien","imdb":8},
+
+        {"name": "Harry Potter and the Deathly Hallows", "budget": "$60M", "director": "J.K. Rowling  ","imdb":9},
+        
+        {"name": "Avengers", "budget": "$90M", "director": "Stan Lee","imdb":9.5} ,
+        
+        {"name": "The Great Gatsby", "budget": "$20M", "director": "Baz Luhrmann","imdb":8},
+        
+        {"name": "Wonder Woman", "budget": "$30M", "director": "Patty Jenkins","imdb":7},
+        
+        {"name": "Iron Man", "budget": "$60M", "director": "Jon Favreau","imdb":8},
+
+         {"name": "The Lone Survivor", "budget": "$30M", "director": "J.K. Raydon","imdb":7},
+        
+         {"name": "Spider Man", "budget": "$50M", "director": "Sam Raimi","imdb":8},
+
+          {"name": "Goodwill Hunting", "budget": "$30M", "director": "Patty Jenkins","imdb":7}
+
+    ]
+
+}
+
+
+
+

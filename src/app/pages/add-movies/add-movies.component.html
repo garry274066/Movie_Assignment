@@ -1,0 +1,72 @@
+<div class="header bg-gradient-danger py-7 py-lg-8">
+    <div class="container">
+      <div class="header-body text-center mb-7">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-md-6">
+            <h1 class="text-white">Welcome!</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="separator separator-bottom separator-skew zindex-100">
+      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+  </div>
+  <!-- Page content -->
+  <div class="container mt--8 pb-5">
+    <!-- Table -->
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8">
+        <div class="card bg-secondary shadow border-0">
+          <div class="card-header bg-transparent pb-5">
+            <div class="text-muted text-center mt-2 mb-4"><small>Add new movie</small></div>
+            <div class="text-center">
+         
+            </div>
+          </div>
+          <div class="card-body px-lg-5 py-lg-5">
+           
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group input-group-alternative mb-3">
+                 
+                  <input class="form-control" name="name" [(ngModel)]="name" placeholder="Movie Name" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative mb-3">
+                  
+                  <input class="form-control" name="budget" [(ngModel)]="budget" placeholder="Movie Budget" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                  
+                  <input class="form-control" name="director" [(ngModel)]="director" placeholder="Director" type="text">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="input-group input-group-alternative">
+                
+                  <input class="form-control" name="imdb" [(ngModel)]="imdb" placeholder="Imdb Rating" type="text">
+                </div>
+              </div>
+              <div class="row my-4">
+                <div class="col-12">
+                
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="button" (click)="submitMovies()" class="btn btn-primary mt-4">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
